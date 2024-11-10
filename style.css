@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: arial;
+}
+body {
+  background: url(./starter-code/assets/bg-main-desktop.png);
+}
+main {
+  padding: 30px 150px 50px 150px;
+}
+.pattern1 {
+  position: absolute;
+  top: -3%;
+  right: 0;
+}
+.header {
+  margin-bottom: 80px;
+}
+.heading {
+  font-size: 4.5rem;
+  color: #191826;
+  margin-bottom: 50px;
+}
+.parah {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: #191826;
+  margin-bottom: 100px;
+}
+.borderbox {
+  position: relative;
+  height: 400px;
+  background-color: #191826;
+  margin-top: 300px;
+  border-radius: 15px;
+  margin-bottom: 350px;
+}
+.pattern2 {
+  position: absolute;
+  left: 28%;
+  /* top: -130px; */
+  /* left: 33.6%; */
+}
+.phone {
+  position: absolute;
+  /* top: -138px;
+  left: -157px; */
+  top: -30%;
+  left: 10%;
+}
+.main-box {
+  height: 450px;
+  width: 350px;
+  background-color: #fa7453;
+  color: #fcfaf9;
+  position: absolute;
+  border-radius: 15px;
+  /* /* left: 57%; */
+  top: 40%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.box1 {
+  font-size: 2rem;
+
+  width: 270px;
+  height: 37px;
+  display: flex;
+}
+.box2 {
+  width: 270px;
+  line-height: 1.5rem;
+}
+.box3 {
+  display: flex;
+  align-items: center;
+  width: 270px;
+  font-size: 1.5rem;
+  b {
+    font-size: 4rem;
+    margin-right: 15px;
+  }
+}
+button {
+  height: 50px;
+  width: 270px;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button1 {
+  background-color: #191826;
+  color: #fcfaf9;
+}
+.button2 {
+  color: #191826;
+}
+.iOS {
+  margin-right: 5px;
+  width: 17.8px;
+  padding-bottom: 6px;
+}
+.Android {
+  margin-right: 7px;
+  padding-bottom: 2px;
+}
+a {
+  text-decoration: none;
+}
+footer {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.copy {
+  line-height: 1.6rem;
+  color: #191826;
+}
+.logos {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button1:hover {
+  background-color: #66e2dc;
+}
+.button2:hover {
+  background-color: #ffb964;
+}
